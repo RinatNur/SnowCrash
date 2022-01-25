@@ -17,7 +17,7 @@ level00@SnowCrash:~$
 After decrypting this cipher
 cdiiddwpgswtgt
 I found only one option with possible code:
-![](Images/test.jpg/150*100 "Decrypted keyword")
+![](Pass_from_Ceaser_Decr.png "Decrypted keyword")
 nottoohardhere
 ```shell
 flag00@SnowCrash:~$ su flag00
