@@ -40,7 +40,7 @@ level03@SnowCrash:~$ export PATH="/tmp:$PATH"
 level03@SnowCrash:~$ echo $PATH
 /tmp:/tmp:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin
 ```
-Now executeing our file:
+Now running our file:
 ```shell
 level03@SnowCrash:~$ ./level03 
 Check flag.Here is your token : qi0maab88jeaj46qoumi7maus
