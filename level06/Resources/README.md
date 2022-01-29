@@ -17,7 +17,7 @@ $r = x($argv[1], $argv[2]); print $r;
 ?>
 ```
 <"/(\[x (.*)\])/e"> this regex use deprecated and vunerable regex 'e' modifier. [Read more](https://stackoverflow.com/questions/16986331/can-someone-explain-the-e-regex-modifier)
-And it will eveluate this (.*).
+And it will eveluate this (`.*`).
 Our executable wait for an argument to use with it:
 ```shell
 level06@SnowCrash:~$ ./level06
