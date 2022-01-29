@@ -1,10 +1,10 @@
-In home directory here is executable file with SUID bit:
+In home directory tere is executable file with SUID bit:
 ```shell
 level07@SnowCrash:~$ ls -la
 [...]
 -rwsr-sr-x 1 flag07  level07 8805 Mar  5  2016 level07
 ```
-When we run ltrace we se that file calls <getenv("LOGNAME")> and print the result
+Runing ltrace shows that file calls <getenv("LOGNAME")> and print the result
 ```shell
 level07@SnowCrash:~$ ltrace ./level07 
 __libc_start_main(0x8048514, 1, 0xbffff6e4, 0x80485b0, 0x8048620 <unfinished ...>
